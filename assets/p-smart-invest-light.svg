@@ -1,0 +1,12 @@
+<svg width="408" height="150" viewBox="0 0 408 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="smart-invest">
+  <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="148" rx="14"/></clipPath></defs>
+  <rect x="1" y="1" width="406" height="148" rx="14" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="4" height="148" fill="#0D9488" opacity="0.9" clip-path="url(#cc)"/>
+  <rect x="1" y="1" width="406" height="148" rx="14" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#1F2328">smart-invest</text>
+  <g transform="translate(366,20)" stroke="#0D9488" stroke-width="1.8" stroke-linecap="round">
+    <path d="M4 14 L14 4 M6 4 H14 V12" fill="none"/>
+  </g>
+  <text x="24" y="68" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#57606A">Client-side quant engine — momentum, EMA stacking,</text><text x="24" y="88" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#57606A">RSI and volatility scored into allocation hints.</text>
+  <circle cx="28" cy="120" r="4" fill="#0D9488"/><text x="38" y="124.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#57606A">JavaScript</text><circle cx="148" cy="120" r="4" fill="#7C3AED"/><text x="158" y="124.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#57606A">quant · in-browser</text>
+</svg>

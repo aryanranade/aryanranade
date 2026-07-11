@@ -1,44 +1,56 @@
-<svg width="1012" height="240" viewBox="0 0 1012 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aryan Ranade — AI/ML Engineer">
+<svg width="1012" height="270" viewBox="0 0 1012 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aryan Ranade — AI/ML Engineer">
   <defs>
-    <clipPath id="card">
-      <rect x="1" y="1" width="1010" height="238" rx="14"/>
-    </clipPath>
-    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.9">
-      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.10"/>
-      <stop offset="45%" stop-color="#0D9488" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
+    <clipPath id="card"><rect x="1" y="1" width="1010" height="268" rx="16"/></clipPath>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0.25"><stop offset="0%" stop-color="#0D9488"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient>
+    <radialGradient id="gTeal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.1"/><stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <radialGradient id="gViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.08"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0D9488" stop-opacity="0"/>
-      <stop offset="18%" stop-color="#0D9488" stop-opacity="1"/>
-      <stop offset="82%" stop-color="#0D9488" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#0D9488"/>
+      <stop offset="70%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#57606A" opacity="0.14"/>
+    </pattern>
   </defs>
 
-  <!-- surface -->
-  <rect x="1" y="1" width="1010" height="238" rx="14" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="1010" height="238" rx="14" fill="url(#glow)"/>
-
+  <rect x="1" y="1" width="1010" height="268" rx="16" fill="#FFFFFF"/>
   <g clip-path="url(#card)">
-    <!-- slow-drifting waves, seamless 220px period -->
+    <rect x="1" y="1" width="1010" height="268" fill="url(#dots)"/>
+    <circle cx="880" cy="20" r="330" fill="url(#gTeal)">
+      <animate attributeName="opacity" values="1;0.55;1" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="270" r="300" fill="url(#gViolet)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="7s" repeatCount="indefinite"/>
+    </circle>
     <g opacity="0.5">
-      <path d="M0,196 q55,-16 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0"
-            stroke="#0D9488" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+      <path d="M0,224 q55,-16 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0" stroke="#0D9488" stroke-opacity="0.45" stroke-width="1.5" fill="none">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-220 0" dur="16s" repeatCount="indefinite"/>
       </path>
-      <path d="M0,212 q55,-13 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0"
-            stroke="#0D9488" stroke-opacity="0.25" stroke-width="1.5" fill="none">
+      <path d="M0,240 q55,-13 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0" stroke="#7C3AED" stroke-opacity="0.35" stroke-width="1.5" fill="none">
         <animateTransform attributeName="transform" type="translate" from="-220 0" to="0 0" dur="22s" repeatCount="indefinite"/>
       </path>
     </g>
   </g>
+  <rect x="1" y="1" width="1010" height="268" rx="16" stroke="#D0D7DE" stroke-width="1.5"/>
 
-  <!-- border -->
-  <rect x="1" y="1" width="1010" height="238" rx="14" stroke="#D0D7DE" stroke-width="1.5"/>
+  <!-- status pill -->
+  <g transform="translate(756,26)">
+    <rect width="230" height="30" rx="15" fill="#F6F8FA" stroke="#D0D7DE"/>
+    <circle cx="18" cy="15" r="4" fill="#0D9488">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="19.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#57606A">OPEN TO AI/ML INTERNSHIPS</text>
+  </g>
+  <!-- terminal tag -->
+  <text x="30" y="45" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#57606A" opacity="0.9"><tspan fill="#0D9488">~</tspan>/aryanranade <tspan fill="#7C3AED">$</tspan></text>
 
-  <!-- type -->
-  <text x="506" y="106" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="0.5" fill="#1F2328">Aryan Ranade</text>
-  <rect x="446" y="128" width="120" height="2" fill="url(#fade)"/>
-  <text x="506" y="162" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="2.5" fill="#57606A">AI/ML ENGINEER<tspan fill="#0D9488" dx="10" dy="-2">·</tspan><tspan dx="10" dy="2">B.TECH COMPUTER SCIENCE</tspan></text>
+  <text x="506" y="132" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="0.5" fill="url(#name)">Aryan Ranade</text>
+  <rect x="426" y="154" width="160" height="2.5" rx="1.25" fill="url(#rule)"/>
+  <text x="506" y="188" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="2.5" fill="#57606A">AI/ML ENGINEER<tspan fill="#0D9488" dx="10" dy="-2">·</tspan><tspan dx="10" dy="2">B.TECH COMPUTER SCIENCE</tspan></text>
 </svg>

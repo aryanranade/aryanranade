@@ -35,8 +35,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # Top-languages cards, regenerated from live API data and committed to main.
-  languages:
+  # Top-languages + analytics cards, regenerated from live API data and committed to main.
+  cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -45,8 +45,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate language cards
-        run: python scripts/generate_langs.py
+      - name: Generate dynamic cards
+        run: python scripts/generate_cards.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: aryanranade
@@ -55,5 +55,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/langs-dark.svg assets/langs-light.svg
-          git diff --cached --quiet || { git commit -m "chore: refresh language cards"; git push; }
+          git add assets/langs-dark.svg assets/langs-light.svg assets/stats-dark.svg assets/stats-light.svg
+          git diff --cached --quiet || { git commit -m "chore: refresh dynamic cards"; git push; }
