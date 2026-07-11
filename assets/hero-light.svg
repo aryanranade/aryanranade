@@ -1,0 +1,44 @@
+<svg width="1012" height="240" viewBox="0 0 1012 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aryan Ranade — AI/ML Engineer">
+  <defs>
+    <clipPath id="card">
+      <rect x="1" y="1" width="1010" height="238" rx="14"/>
+    </clipPath>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.10"/>
+      <stop offset="45%" stop-color="#0D9488" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#0D9488" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#0D9488" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- surface -->
+  <rect x="1" y="1" width="1010" height="238" rx="14" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1010" height="238" rx="14" fill="url(#glow)"/>
+
+  <g clip-path="url(#card)">
+    <!-- slow-drifting waves, seamless 220px period -->
+    <g opacity="0.5">
+      <path d="M0,196 q55,-16 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0"
+            stroke="#0D9488" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-220 0" dur="16s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0,212 q55,-13 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0"
+            stroke="#0D9488" stroke-opacity="0.25" stroke-width="1.5" fill="none">
+        <animateTransform attributeName="transform" type="translate" from="-220 0" to="0 0" dur="22s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- border -->
+  <rect x="1" y="1" width="1010" height="238" rx="14" stroke="#D0D7DE" stroke-width="1.5"/>
+
+  <!-- type -->
+  <text x="506" y="106" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="0.5" fill="#1F2328">Aryan Ranade</text>
+  <rect x="446" y="128" width="120" height="2" fill="url(#fade)"/>
+  <text x="506" y="162" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="2.5" fill="#57606A">AI/ML ENGINEER<tspan fill="#0D9488" dx="10" dy="-2">·</tspan><tspan dx="10" dy="2">B.TECH COMPUTER SCIENCE</tspan></text>
+</svg>
