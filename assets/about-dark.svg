@@ -1,0 +1,61 @@
+<svg width="1012" height="475" viewBox="0 0 1012 475" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About Aryan">
+  <rect x="1" y="1" width="1010" height="473" rx="14" fill="#0D1117" stroke="#21262D" stroke-width="1.5"/>
+  <path d="M1 41 h1010" stroke="#21262D" stroke-width="1"/>
+  <rect x="1" y="1" width="1010" height="40" rx="14" fill="#161B22"/>
+  <rect x="1" y="27" width="1010" height="14" fill="#161B22"/>
+  <circle cx="26" cy="21" r="5.5" fill="#FF5F56"/>
+  <circle cx="46" cy="21" r="5.5" fill="#FFBD2E"/>
+  <circle cx="66" cy="21" r="5.5" fill="#27C93F"/>
+  <text x="506" y="25.5" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#8B949E">aryan@github: ~/about</text>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
+    <text x="30" y="74" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#2DD4BF">$ </tspan><tspan fill="#E6EDF3">whoami</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
+    <text x="46" y="99" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#8B949E">Computer Science student · building projects in </tspan><tspan fill="#8B5CF6">Machine Learning &amp; AI</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/>
+    <text x="46" y="124" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#8B949E">currently exploring </tspan><tspan fill="#2DD4BF">agentic systems</tspan><tspan fill="#8B949E"> and </tspan><tspan fill="#2DD4BF">applied ML</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze"/>
+    <text x="30" y="174" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#2DD4BF">$ </tspan><tspan fill="#E6EDF3">cat curiosity.log</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.0s" fill="freeze"/>
+    <text x="46" y="199" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#8B949E">genuinely curious how things work </tspan><tspan fill="#8B5CF6">under the hood</tspan><tspan fill="#8B949E"> —</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze"/>
+    <text x="46" y="224" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#8B949E">not just using a model or framework, but understanding </tspan><tspan fill="#8B5CF6">why</tspan><tspan fill="#8B949E"> it behaves that way</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.8s" fill="freeze"/>
+    <text x="30" y="274" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#2DD4BF">$ </tspan><tspan fill="#E6EDF3">cat workflow.md</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.2s" fill="freeze"/>
+    <text x="46" y="299" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#2DD4BF">research ideas</tspan><tspan fill="#8B949E"> ⇄ </tspan><tspan fill="#2DD4BF">shipped solutions</tspan><tspan fill="#8B949E"> · comfortable moving between both</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.6s" fill="freeze"/>
+    <text x="46" y="324" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#8B949E">building end-to-end: </tspan><tspan fill="#8B5CF6">concept → working system</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.0s" fill="freeze"/>
+    <text x="30" y="374" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#2DD4BF">$ </tspan><tspan fill="#E6EDF3">cat now.txt</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.5s" fill="freeze"/>
+    <text x="46" y="399" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#8B949E">sharpening </tspan><tspan fill="#2DD4BF">data structures &amp; algorithms</tspan><tspan fill="#8B949E"> · tracking the </tspan><tspan fill="#8B5CF6">latest in AI</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.9s" fill="freeze"/>
+    <text x="30" y="424" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13.5"><tspan fill="#2DD4BF">$ </tspan></text>
+    <rect x="48" y="413" width="8" height="14" fill="#2DD4BF">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" begin="4.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

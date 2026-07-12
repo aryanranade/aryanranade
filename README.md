@@ -28,7 +28,14 @@ I build LLM-powered applications end to end — agentic workflows, retrieval pip
 
 Day to day that means **Python** on the ML side, **Groq** for low-latency inference, **Supabase** for data and auth, and **Vercel** for deployment — plus **Hugging Face** models and datasets when the problem calls for them.
 
-B.Tech in Computer Science, focused on AI/ML engineering.
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
+  <img src="assets/about-light.svg" alt="whoami — CS student building in ML and AI, curious how things work under the hood, moving between research ideas and shipped solutions" width="100%">
+</picture>
+
+</div>
 
 <div align="center">
 

@@ -7,8 +7,19 @@
       <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.65"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0.25"><stop offset="0%" stop-color="#0D9488"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F2328" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#1F2328" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1F2328" stop-opacity="0"/>
+    </linearGradient>
   </defs>
   <rect x="0" y="30" width="400" height="1" fill="url(#l)"/>
   <rect x="612" y="30" width="400" height="1" fill="url(#r)"/>
+  <clipPath id="lines"><rect x="0" y="29" width="400" height="3"/><rect x="612" y="29" width="400" height="3"/></clipPath>
+  <g clip-path="url(#lines)">
+    <rect x="-140" y="29" width="120" height="3" fill="url(#glint)" opacity="0.9">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="1292 0" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
   <text x="506" y="35.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="url(#tx)">ABOUT</text>
 </svg>
