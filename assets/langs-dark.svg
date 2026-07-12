@@ -7,7 +7,8 @@
   <rect x="1" y="1" width="406" height="328" rx="14" fill="#0D1117" stroke="#21262D" stroke-width="1.5"/>
   <text x="24" y="36" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2" fill="#8B949E">MOST USED LANGUAGES</text>
   <rect x="24" y="44" width="34" height="2" fill="url(#acc)"/>
-  <g transform="translate(24,58)">
+  <g transform="translate(24,58)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.00s" fill="freeze"/>
     <text x="0" y="12" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">JavaScript</text>
     <text x="360" y="12" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">55.6%</text>
     <rect x="0" y="20" width="360" height="6" rx="3" fill="#21262D"/>
@@ -15,7 +16,8 @@
       <animate attributeName="width" dur="0.9s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;360.0"/>
     </rect>
   </g>
-  <g transform="translate(24,100)">
+  <g transform="translate(24,100)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.15s" fill="freeze"/>
     <text x="0" y="12" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">Python</text>
     <text x="360" y="12" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">12.1%</text>
     <rect x="0" y="20" width="360" height="6" rx="3" fill="#21262D"/>
@@ -23,7 +25,8 @@
       <animate attributeName="width" dur="0.9s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;78.3"/>
     </rect>
   </g>
-  <g transform="translate(24,142)">
+  <g transform="translate(24,142)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.30s" fill="freeze"/>
     <text x="0" y="12" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">CSS</text>
     <text x="360" y="12" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">10.8%</text>
     <rect x="0" y="20" width="360" height="6" rx="3" fill="#21262D"/>
@@ -31,7 +34,8 @@
       <animate attributeName="width" dur="0.9s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;69.8"/>
     </rect>
   </g>
-  <g transform="translate(24,184)">
+  <g transform="translate(24,184)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.45s" fill="freeze"/>
     <text x="0" y="12" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">TypeScript</text>
     <text x="360" y="12" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">10.7%</text>
     <rect x="0" y="20" width="360" height="6" rx="3" fill="#21262D"/>
@@ -39,7 +43,8 @@
       <animate attributeName="width" dur="0.9s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;69.6"/>
     </rect>
   </g>
-  <g transform="translate(24,226)">
+  <g transform="translate(24,226)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.60s" fill="freeze"/>
     <text x="0" y="12" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">Java</text>
     <text x="360" y="12" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">9.5%</text>
     <rect x="0" y="20" width="360" height="6" rx="3" fill="#21262D"/>
@@ -47,7 +52,8 @@
       <animate attributeName="width" dur="0.9s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;61.7"/>
     </rect>
   </g>
-  <g transform="translate(24,268)">
+  <g transform="translate(24,268)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.75s" fill="freeze"/>
     <text x="0" y="12" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">HTML</text>
     <text x="360" y="12" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">1.2%</text>
     <rect x="0" y="20" width="360" height="6" rx="3" fill="#21262D"/>

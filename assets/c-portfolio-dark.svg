@@ -1,0 +1,26 @@
+<svg width="236" height="56" viewBox="0 0 236 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PORTFOLIO">
+  <defs>
+    <linearGradient id="bstroke" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#2DD4BF"/><stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="bglint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E6EDF3" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E6EDF3" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#E6EDF3" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="bclip"><rect x="1" y="1" width="234" height="54" rx="14"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="234" height="54" rx="14" fill="#161B22"/>
+  <g clip-path="url(#bclip)">
+    <rect x="-90" y="0" width="70" height="56" fill="url(#bglint)" transform="skewX(-20)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="416 0" dur="3.8s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="234" height="54" rx="14" stroke="url(#bstroke)" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="1;0.45;1" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(24,16)" stroke="#2DD4BF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="scale(1)"><circle cx="12" cy="12" r="9.5" fill="none"/><ellipse cx="12" cy="12" rx="4.2" ry="9.5" fill="none"/><path d="M2.5 12 H21.5" fill="none"/></g>
+  </g>
+  <text x="135" y="33" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.5" fill="#E6EDF3">PORTFOLIO</text>
+</svg>

@@ -6,6 +6,14 @@
       <stop offset="65%" stop-color="#7C3AED" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="dglint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F2328" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#1F2328" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1F2328" stop-opacity="0"/>
+    </linearGradient>
   </defs>
   <rect x="0" y="1.5" width="1012" height="1" fill="url(#line)"/>
+  <rect x="-140" y="0.5" width="120" height="3" fill="url(#dglint)" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="1290 0" dur="6s" repeatCount="indefinite"/>
+  </rect>
 </svg>

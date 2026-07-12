@@ -109,7 +109,8 @@ def render_langs(langs: list[tuple[str, float]], t: dict) -> str:
         y = 58 + i * 42
         opacity = 1.0 - i * 0.13
         fill_w = round(bar_w * pct / max_pct, 1)
-        rows.append(f"""  <g transform="translate({PAD},{y})">
+        rows.append(f"""  <g transform="translate({PAD},{y})" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{0.15 * i:.2f}s" fill="freeze"/>
     <text x="0" y="12" font-family="{FONT}" font-size="14" font-weight="600" fill="{t['text']}">{lang}</text>
     <text x="{bar_w}" y="12" text-anchor="end" font-family="{FONT}" font-size="13" fill="{t['muted']}">{pct:.1f}%</text>
     <rect x="0" y="20" width="{bar_w}" height="6" rx="3" fill="{t['track']}"/>
@@ -129,13 +130,18 @@ def render_stats(s: dict, t: dict) -> str:
     rows = []
     for i, (label, value, color) in enumerate(rows_def):
         y = 168 + i * 40
-        rows.append(f"""  <g transform="translate({PAD},{y})">
+        rows.append(f"""  <g transform="translate({PAD},{y})" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{0.5 + 0.15 * i:.2f}s" fill="freeze"/>
     <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="{t[color]}"/>
     <text x="14" y="2" font-family="{FONT}" font-size="12.5" letter-spacing="1" fill="{t['muted']}">{label}</text>
     <text x="{inner_w}" y="2" text-anchor="end" font-family="{FONT}" font-size="16" font-weight="700" fill="{t['text']}">{value:,}</text>
     <rect x="0" y="16" width="{inner_w}" height="1" fill="{t['border']}" opacity="0.6"/>
   </g>""")
-    body = f"""  <text x="{PAD}" y="114" font-family="{FONT}" font-size="44" font-weight="800" fill="url(#acc)">{s['contributions']:,}</text>
+    body = f"""  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.7s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0 10;0 0"/>
+    <text x="{PAD}" y="114" font-family="{FONT}" font-size="44" font-weight="800" fill="url(#acc)">{s['contributions']:,}</text>
+  </g>
   <text x="{PAD}" y="138" font-family="{FONT}" font-size="12.5" letter-spacing="2" fill="{t['muted']}">CONTRIBUTIONS · LAST YEAR</text>
 {chr(10).join(rows)}"""
     return card_shell(t, "GITHUB ANALYTICS", body)

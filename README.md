@@ -22,22 +22,10 @@
   <img src="assets/h-about-light.svg" alt="About" width="100%">
 </picture>
 
-</div>
-
-I build LLM-powered applications end to end — agentic workflows, retrieval pipelines, and the product around them. Recent work includes an **AI-powered finance tracker** with **Groq Llama 3.3** insights and smart auto-categorization, shipped live on Vercel.
-
-Day to day that means **Python** on the ML side, **Groq** for low-latency inference, **Supabase** for data and auth, and **Vercel** for deployment — plus **Hugging Face** models and datasets when the problem calls for them.
-
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
   <img src="assets/about-light.svg" alt="whoami — CS student building in ML and AI, curious how things work under the hood, moving between research ideas and shipped solutions" width="100%">
 </picture>
-
-</div>
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.svg">
@@ -133,10 +121,19 @@ Day to day that means **Python** on the ML side, **Groq** for low-latency infere
 </picture>
 
 <p>
-  <a href="mailto:aryan.a.ranade@gmail.com"><img src="https://img.shields.io/badge/aryan.a.ranade@gmail.com-161B22?style=flat-square&logo=gmail&logoColor=2DD4BF" alt="Email Aryan"></a>
-  <a href="https://www.linkedin.com/in/aryanranade"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMTIiIHk9IjE3LjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMkRENEJGIj5pbjwvdGV4dD48L3N2Zz4%3D" alt="LinkedIn"></a>
+  <a href="mailto:aryan.a.ranade@gmail.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/c-email-dark.svg">
+    <img src="assets/c-email-light.svg" alt="Email aryan.a.ranade@gmail.com" width="236">
+  </picture></a>
+  <a href="https://www.linkedin.com/in/aryanranade"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/c-linkedin-dark.svg">
+    <img src="assets/c-linkedin-light.svg" alt="LinkedIn — aryanranade" width="236">
+  </picture></a>
   <!-- TODO: replace with your portfolio URL when it ships -->
-  <a href="https://TODO.example.com"><img src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=safari&logoColor=2DD4BF" alt="Portfolio"></a>
+  <a href="https://TODO.example.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/c-portfolio-dark.svg">
+    <img src="assets/c-portfolio-light.svg" alt="Portfolio" width="236">
+  </picture></a>
 </p>
 
 <picture>
