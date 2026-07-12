@@ -19,11 +19,12 @@ TOP_N = 6
 W, H, PAD = 408, 330, 24
 
 # Design tokens — keep in sync with assets/hero-*.svg
+# single-accent theme: "violet" intentionally aliases teal for a uniform look
 THEMES = {
     "dark": dict(bg="#0D1117", border="#21262D", text="#E6EDF3", muted="#8B949E",
-                 track="#21262D", teal="#2DD4BF", violet="#8B5CF6"),
+                 track="#21262D", teal="#2DD4BF", violet="#2DD4BF"),
     "light": dict(bg="#FFFFFF", border="#D0D7DE", text="#1F2328", muted="#57606A",
-                  track="#EAEEF2", teal="#0D9488", violet="#7C3AED"),
+                  track="#EAEEF2", teal="#0D9488", violet="#0D9488"),
 }
 
 FONT = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"

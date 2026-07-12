@@ -3,23 +3,23 @@
     <clipPath id="card"><rect x="1" y="1" width="1010" height="268" rx="16"/></clipPath>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0.25">
       <stop offset="0%" stop-color="#2DD4BF">
-        <animate attributeName="stop-color" values="#2DD4BF;#8B5CF6;#2DD4BF" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#2DD4BF;#2DD4BF;#2DD4BF" dur="9s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#8B5CF6">
-        <animate attributeName="stop-color" values="#8B5CF6;#2DD4BF;#8B5CF6" dur="9s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#2DD4BF">
+        <animate attributeName="stop-color" values="#2DD4BF;#2DD4BF;#2DD4BF" dur="9s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <radialGradient id="gTeal" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.16"/><stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="gViolet" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.12"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.12"/><stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0"/>
       <stop offset="30%" stop-color="#2DD4BF"/>
-      <stop offset="70%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
     </linearGradient>
     <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
       <circle cx="1.5" cy="1.5" r="1.2" fill="#8B949E" opacity="0.14"/>
@@ -40,11 +40,11 @@
         <animate attributeName="cy" values="220;60" dur="11s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.7;0" dur="11s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="320" cy="180" r="1.5" fill="#8B5CF6">
+      <circle cx="320" cy="180" r="1.5" fill="#2DD4BF">
         <animate attributeName="cy" values="240;40" dur="14s" begin="3s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.6;0" dur="14s" begin="3s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="700" cy="210" r="2" fill="#8B5CF6">
+      <circle cx="700" cy="210" r="2" fill="#2DD4BF">
         <animate attributeName="cy" values="230;70" dur="12s" begin="1.5s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.65;0" dur="12s" begin="1.5s" repeatCount="indefinite"/>
       </circle>
@@ -64,7 +64,7 @@
       <path d="M0,224 q55,-16 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0" stroke="#2DD4BF" stroke-opacity="0.45" stroke-width="1.5" fill="none">
         <animateTransform attributeName="transform" type="translate" from="0 0" to="-220 0" dur="16s" repeatCount="indefinite"/>
       </path>
-      <path d="M0,240 q55,-13 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0" stroke="#8B5CF6" stroke-opacity="0.35" stroke-width="1.5" fill="none">
+      <path d="M0,240 q55,-13 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1.5" fill="none">
         <animateTransform attributeName="transform" type="translate" from="-220 0" to="0 0" dur="22s" repeatCount="indefinite"/>
       </path>
     </g>
@@ -80,9 +80,9 @@
     <text x="30" y="19.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#8B949E">OPEN TO AI/ML INTERNSHIPS</text>
   </g>
   <!-- terminal tag -->
-  <text x="30" y="45" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#8B949E" opacity="0.9"><tspan fill="#2DD4BF">~</tspan>/aryanranade <tspan fill="#8B5CF6">$</tspan></text>
+  <text x="30" y="45" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#8B949E" opacity="0.9"><tspan fill="#2DD4BF">~</tspan>/aryanranade <tspan fill="#2DD4BF">$</tspan></text>
 
-  <text x="506" y="132" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="0.5" fill="url(#name)">Aryan Ranade</text>
+  <text x="506" y="132" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="0.5" fill="#E6EDF3">Aryan Ranade</text>
   <rect x="426" y="154" width="160" height="2.5" rx="1.25" fill="url(#rule)"/>
-  <text x="506" y="188" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="2.5" fill="#8B949E">AI/ML ENGINEER<tspan fill="#2DD4BF" dx="10" dy="-2">·</tspan><tspan dx="10" dy="2">B.TECH COMPUTER SCIENCE</tspan></text>
+  <text x="506" y="188" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="2.5" fill="#8B949E">AI/ML ENGINEER<tspan fill="#2DD4BF" dx="10" dy="-2">·</tspan><tspan dx="10" dy="2">COMPUTER SCIENCE STUDENT</tspan></text>
 </svg>

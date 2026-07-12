@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Aryan Ranade — AI/ML Engineer · B.Tech Computer Science" width="100%">
+  <img src="assets/hero-light.svg" alt="Aryan Ranade — AI/ML Engineer · Computer Science Student" width="100%">
 </picture>
 
 <picture>
@@ -10,22 +10,22 @@
   <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=900&center=true&vCenter=true&width=640&height=32&background=00000000&color=0D9488&lines=Building+LLM-powered+products+end+to+end;Agentic+workflows+%C2%B7+RAG+%C2%B7+low-latency+inference;Python+%C2%B7+Groq+%C2%B7+Supabase+%C2%B7+Vercel+%C2%B7+Hugging+Face" alt="Building LLM-powered products end to end">
 </picture>
 
-<p>
-  <a href="mailto:aryan.a.ranade@gmail.com"><img src="https://img.shields.io/badge/Email-161B22?style=flat-square&logo=gmail&logoColor=2DD4BF" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/aryanranade"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMTIiIHk9IjE3LjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMkRENEJGIj5pbjwvdGV4dD48L3N2Zz4%3D" alt="LinkedIn"></a>
-  <!-- TODO: replace with your portfolio URL when it ships -->
-  <a href="https://TODO.example.com"><img src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=safari&logoColor=2DD4BF" alt="Portfolio"></a>
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg">
   <img src="assets/h-about-light.svg" alt="About" width="100%">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
-  <img src="assets/about-light.svg" alt="whoami — CS student building in ML and AI, curious how things work under the hood, moving between research ideas and shipped solutions" width="100%">
-</picture>
+</div>
+
+- Computer Science student currently working on projects in **Machine Learning and Artificial Intelligence**
+- Exploring **agentic systems** and **applied ML**
+- Genuinely curious about how things work under the hood — not just using a model or framework, but understanding *why* it behaves the way it does
+- Comfortable moving between exploring research ideas and shipping practical solutions
+- Enjoy building things end-to-end, from concept to working system
+- Sharpening fundamentals in **data structures & algorithms**
+- Exploring the latest developments in AI and staying up to date
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.svg">
@@ -96,8 +96,8 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=aryanranade&bg_color=0D1117&color=8B949E&line=2DD4BF&point=8B5CF6&area=true&area_color=2DD4BF&hide_border=true&radius=14&custom_title=Contribution%20Activity">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aryanranade&bg_color=FFFFFF&color=57606A&line=0D9488&point=7C3AED&area=true&area_color=0D9488&hide_border=true&radius=14&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=aryanranade&bg_color=0D1117&color=8B949E&line=2DD4BF&point=2DD4BF&area=true&area_color=2DD4BF&hide_border=true&radius=14&custom_title=Contribution%20Activity">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aryanranade&bg_color=FFFFFF&color=57606A&line=0D9488&point=0D9488&area=true&area_color=0D9488&hide_border=true&radius=14&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%">
 </picture>
 
 <picture>
@@ -110,8 +110,8 @@
   (Themed to match; dark/light variants.)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=aryanranade&background=0D1117&border=21262D&ring=2DD4BF&fire=8B5CF6&currStreakNum=E6EDF3&currStreakLabel=2DD4BF&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=21262D">
-  <img src="https://streak-stats.demolab.com/?user=aryanranade&background=FFFFFF&border=D0D7DE&ring=0D9488&fire=7C3AED&currStreakNum=1F2328&currStreakLabel=0D9488&sideNums=1F2328&sideLabels=57606A&dates=57606A&stroke=D0D7DE" alt="Contribution streak" width="408">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=aryanranade&background=0D1117&border=21262D&ring=2DD4BF&fire=2DD4BF&currStreakNum=E6EDF3&currStreakLabel=2DD4BF&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=21262D">
+  <img src="https://streak-stats.demolab.com/?user=aryanranade&background=FFFFFF&border=D0D7DE&ring=0D9488&fire=0D9488&currStreakNum=1F2328&currStreakLabel=0D9488&sideNums=1F2328&sideLabels=57606A&dates=57606A&stroke=D0D7DE" alt="Contribution streak" width="408">
 </picture>
 -->
 
