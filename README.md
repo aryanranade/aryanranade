@@ -12,8 +12,7 @@
 
 <p>
   <a href="mailto:aryan.a.ranade@gmail.com"><img src="https://img.shields.io/badge/Email-161B22?style=flat-square&logo=gmail&logoColor=2DD4BF" alt="Email"></a>
-  <!-- TODO: replace with your real LinkedIn URL -->
-  <a href="https://www.linkedin.com/in/TODO"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMTIiIHk9IjE3LjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMkRENEJGIj5pbjwvdGV4dD48L3N2Zz4%3D" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/aryanranade"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMTIiIHk9IjE3LjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMkRENEJGIj5pbjwvdGV4dD48L3N2Zz4%3D" alt="LinkedIn"></a>
   <!-- TODO: replace with your portfolio URL when it ships -->
   <a href="https://TODO.example.com"><img src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=safari&logoColor=2DD4BF" alt="Portfolio"></a>
 </p>
@@ -25,7 +24,7 @@
 
 </div>
 
-I build LLM-powered applications end to end — agentic workflows, retrieval pipelines, and the product around them. Recent work includes an **agentic job-search pipeline** orchestrated with n8n on **Groq Llama 3**, and a **FastAPI backend** built for an AI evaluation dashboard.
+I build LLM-powered applications end to end — agentic workflows, retrieval pipelines, and the product around them. Recent work includes an **AI-powered finance tracker** with **Groq Llama 3.3** insights and smart auto-categorization, shipped live on Vercel.
 
 Day to day that means **Python** on the ML side, **Groq** for low-latency inference, **Supabase** for data and auth, and **Vercel** for deployment — plus **Hugging Face** models and datasets when the problem calls for them.
 
@@ -39,25 +38,16 @@ B.Tech in Computer Science, focused on AI/ML engineering.
 </picture>
 
 <p>
-  <a href="https://github.com/aryanranade/JobPulse"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/p-jobpulse-dark.svg">
-    <img src="assets/p-jobpulse-light.svg" alt="JobPulse — agentic job-search pipeline" width="408">
-  </picture></a>
-  <a href="https://github.com/aryanranade/agon-solver"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/p-agon-solver-dark.svg">
-    <img src="assets/p-agon-solver-light.svg" alt="agon-solver — FastAPI backend for an AI evaluation dashboard" width="408">
-  </picture></a>
-</p>
-<p>
-  <a href="https://github.com/aryanranade/smart-invest"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/p-smart-invest-dark.svg">
-    <img src="assets/p-smart-invest-light.svg" alt="smart-invest — client-side quant engine" width="408">
+  <a href="https://github.com/aryanranade/finance-tracker"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/p-finance-tracker-dark.svg">
+    <img src="assets/p-finance-tracker-light.svg" alt="finance-tracker — AI-powered personal finance tracker" width="408">
   </picture></a>
   <a href="https://github.com/aryanranade/horizon-dashboard"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/p-horizon-dashboard-dark.svg">
     <img src="assets/p-horizon-dashboard-light.svg" alt="horizon-dashboard — Next.js dashboard UI" width="408">
   </picture></a>
 </p>
+<!-- Third featured project slot — add its card here when decided. -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg">
@@ -66,30 +56,32 @@ B.Tech in Computer Science, focused on AI/ML engineering.
 
 <p><samp>LANGUAGES</samp></p>
 <p>
-  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=2DD4BF" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=2DD4BF" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=2DD4BF" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
 <p><samp>AI &amp; BACKEND</samp></p>
 <p>
-  <img src="https://img.shields.io/badge/Groq-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzJERDRCRiIgZD0iTTEzIDIgNCAxNGg2bC0xIDggOS0xMmgtNmwxLTh6Ii8%2BPC9zdmc%2B" alt="Groq">
-  <img src="https://img.shields.io/badge/Hugging%20Face-161B22?style=flat-square&logo=huggingface&logoColor=2DD4BF" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/n8n-161B22?style=flat-square&logo=n8n&logoColor=2DD4BF" alt="n8n">
-  <img src="https://img.shields.io/badge/FastAPI-161B22?style=flat-square&logo=fastapi&logoColor=2DD4BF" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Supabase-161B22?style=flat-square&logo=supabase&logoColor=2DD4BF" alt="Supabase">
-  <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=2DD4BF" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTEzIDIgNCAxNGg2bC0xIDggOS0xMmgtNmwxLTh6Ii8%2BPC9zdmc%2B" alt="Groq">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
 </p>
 
 <p><samp>WEB &amp; TOOLS</samp></p>
 <p>
-  <img src="https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=2DD4BF" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=2DD4BF" alt="Next.js">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-161B22?style=flat-square&logo=tailwindcss&logoColor=2DD4BF" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=nodedotjs&logoColor=2DD4BF" alt="Node.js">
-  <img src="https://img.shields.io/badge/Vercel-161B22?style=flat-square&logo=vercel&logoColor=2DD4BF" alt="Vercel">
-  <img src="https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=2DD4BF" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-161B22?style=flat-square&logo=githubactions&logoColor=2DD4BF" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
 <picture>
@@ -135,8 +127,7 @@ B.Tech in Computer Science, focused on AI/ML engineering.
 
 <p>
   <a href="mailto:aryan.a.ranade@gmail.com"><img src="https://img.shields.io/badge/aryan.a.ranade@gmail.com-161B22?style=flat-square&logo=gmail&logoColor=2DD4BF" alt="Email Aryan"></a>
-  <!-- TODO: replace with your real LinkedIn URL -->
-  <a href="https://www.linkedin.com/in/TODO"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMTIiIHk9IjE3LjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMkRENEJGIj5pbjwvdGV4dD48L3N2Zz4%3D" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/aryanranade"><img src="https://img.shields.io/badge/LinkedIn-161B22?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMTIiIHk9IjE3LjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE1IiBmaWxsPSIjMkRENEJGIj5pbjwvdGV4dD48L3N2Zz4%3D" alt="LinkedIn"></a>
   <!-- TODO: replace with your portfolio URL when it ships -->
   <a href="https://TODO.example.com"><img src="https://img.shields.io/badge/Portfolio-161B22?style=flat-square&logo=safari&logoColor=2DD4BF" alt="Portfolio"></a>
 </p>
