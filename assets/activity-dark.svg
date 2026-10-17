@@ -1,8 +1,10 @@
 <svg width="832" height="236" viewBox="0 0 832 236" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Weekly Activity · Last 12 Months">
-  <rect x="1" y="1" width="830" height="234" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
-  <text x="24" y="36" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="2" fill="#8B949E">WEEKLY ACTIVITY · LAST 12 MONTHS</text>
-  <rect x="24" y="44" width="28" height="2" fill="#2DD4BF"/>
-  <text x="808" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8B949E"><tspan fill="#E6EDF3" font-weight="700">217</tspan> contributions · best week <tspan fill="#E6EDF3" font-weight="700">84</tspan></text>
+  <defs><clipPath id="cc"><rect x="1" y="1" width="830" height="234" rx="14"/></clipPath></defs>
+  <rect x="1" y="1" width="830" height="234" rx="14" fill="#161B22"/>
+  <rect x="0" y="0" width="832" height="5" fill="#FB923C" clip-path="url(#cc)"/>
+  <rect x="1" y="1" width="830" height="234" rx="14" stroke="#30363D" stroke-width="1.5"/>
+  <text x="24" y="38" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2" fill="#F0F6FC">WEEKLY ACTIVITY · LAST 12 MONTHS</text>
+  <text x="808" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9198A1"><tspan fill="#F0F6FC" font-weight="700">218</tspan> contributions · best week <tspan fill="#F0F6FC" font-weight="700">84</tspan></text>
   <rect x="24" y="182" width="784" height="1" fill="#30363D"/>
   <rect x="26.0" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="40.8" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
@@ -23,50 +25,51 @@
   <rect x="262.7" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="277.5" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="292.3" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="307.1" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="321.8" y="180.0" width="10.8" height="2.0" rx="2" fill="#2DD4BF" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.40s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.40s" fill="freeze"/></rect>
-  <rect x="336.6" y="178.3" width="10.8" height="3.7" rx="2" fill="#2DD4BF" opacity="0.37"><animate attributeName="height" values="0;3.7" dur="0.6s" begin="0.42s" fill="freeze"/><animate attributeName="y" values="182;178.3" dur="0.6s" begin="0.42s" fill="freeze"/></rect>
+  <rect x="307.1" y="180.0" width="10.8" height="2.0" rx="2" fill="#FB923C" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.38s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.38s" fill="freeze"/></rect>
+  <rect x="321.8" y="178.3" width="10.8" height="3.7" rx="2" fill="#FB923C" opacity="0.37"><animate attributeName="height" values="0;3.7" dur="0.6s" begin="0.40s" fill="freeze"/><animate attributeName="y" values="182;178.3" dur="0.6s" begin="0.40s" fill="freeze"/></rect>
+  <rect x="336.6" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="351.4" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="366.2" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="381.0" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="395.8" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="410.6" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="425.4" y="180.0" width="10.8" height="2.0" rx="2" fill="#2DD4BF" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.54s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.54s" fill="freeze"/></rect>
-  <rect x="440.2" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="455.0" y="168.4" width="10.8" height="13.6" rx="2" fill="#2DD4BF" opacity="0.44"><animate attributeName="height" values="0;13.6" dur="0.6s" begin="0.58s" fill="freeze"/><animate attributeName="y" values="182;168.4" dur="0.6s" begin="0.58s" fill="freeze"/></rect>
+  <rect x="410.6" y="180.0" width="10.8" height="2.0" rx="2" fill="#FB923C" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.52s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.52s" fill="freeze"/></rect>
+  <rect x="425.4" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
+  <rect x="440.2" y="168.4" width="10.8" height="13.6" rx="2" fill="#FB923C" opacity="0.44"><animate attributeName="height" values="0;13.6" dur="0.6s" begin="0.56s" fill="freeze"/><animate attributeName="y" values="182;168.4" dur="0.6s" begin="0.56s" fill="freeze"/></rect>
+  <rect x="455.0" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="469.8" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="484.6" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="499.4" y="178.3" width="10.8" height="3.7" rx="2" fill="#2DD4BF" opacity="0.37"><animate attributeName="height" values="0;3.7" dur="0.6s" begin="0.64s" fill="freeze"/><animate attributeName="y" values="182;178.3" dur="0.6s" begin="0.64s" fill="freeze"/></rect>
-  <rect x="514.2" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="528.9" y="167.1" width="10.8" height="14.9" rx="2" fill="#2DD4BF" opacity="0.44"><animate attributeName="height" values="0;14.9" dur="0.6s" begin="0.68s" fill="freeze"/><animate attributeName="y" values="182;167.1" dur="0.6s" begin="0.68s" fill="freeze"/></rect>
-  <rect x="543.7" y="178.3" width="10.8" height="3.7" rx="2" fill="#2DD4BF" opacity="0.37"><animate attributeName="height" values="0;3.7" dur="0.6s" begin="0.70s" fill="freeze"/><animate attributeName="y" values="182;178.3" dur="0.6s" begin="0.70s" fill="freeze"/></rect>
+  <rect x="484.6" y="178.3" width="10.8" height="3.7" rx="2" fill="#FB923C" opacity="0.37"><animate attributeName="height" values="0;3.7" dur="0.6s" begin="0.62s" fill="freeze"/><animate attributeName="y" values="182;178.3" dur="0.6s" begin="0.62s" fill="freeze"/></rect>
+  <rect x="499.4" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
+  <rect x="514.2" y="167.1" width="10.8" height="14.9" rx="2" fill="#FB923C" opacity="0.44"><animate attributeName="height" values="0;14.9" dur="0.6s" begin="0.66s" fill="freeze"/><animate attributeName="y" values="182;167.1" dur="0.6s" begin="0.66s" fill="freeze"/></rect>
+  <rect x="528.9" y="178.3" width="10.8" height="3.7" rx="2" fill="#FB923C" opacity="0.37"><animate attributeName="height" values="0;3.7" dur="0.6s" begin="0.68s" fill="freeze"/><animate attributeName="y" values="182;178.3" dur="0.6s" begin="0.68s" fill="freeze"/></rect>
+  <rect x="543.7" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="558.5" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="573.3" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="588.1" y="162.2" width="10.8" height="19.8" rx="2" fill="#2DD4BF" opacity="0.47"><animate attributeName="height" values="0;19.8" dur="0.6s" begin="0.76s" fill="freeze"/><animate attributeName="y" values="182;162.2" dur="0.6s" begin="0.76s" fill="freeze"/></rect>
-  <rect x="602.9" y="177.0" width="10.8" height="5.0" rx="2" fill="#2DD4BF" opacity="0.38"><animate attributeName="height" values="0;5.0" dur="0.6s" begin="0.78s" fill="freeze"/><animate attributeName="y" values="182;177.0" dur="0.6s" begin="0.78s" fill="freeze"/></rect>
-  <rect x="617.7" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="632.5" y="174.6" width="10.8" height="7.4" rx="2" fill="#2DD4BF" opacity="0.40"><animate attributeName="height" values="0;7.4" dur="0.6s" begin="0.82s" fill="freeze"/><animate attributeName="y" values="182;174.6" dur="0.6s" begin="0.82s" fill="freeze"/></rect>
-  <rect x="647.3" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="662.1" y="161.0" width="10.8" height="21.0" rx="2" fill="#2DD4BF" opacity="0.48"><animate attributeName="height" values="0;21.0" dur="0.6s" begin="0.86s" fill="freeze"/><animate attributeName="y" values="182;161.0" dur="0.6s" begin="0.86s" fill="freeze"/></rect>
-  <rect x="676.9" y="173.3" width="10.8" height="8.7" rx="2" fill="#2DD4BF" opacity="0.40"><animate attributeName="height" values="0;8.7" dur="0.6s" begin="0.88s" fill="freeze"/><animate attributeName="y" values="182;173.3" dur="0.6s" begin="0.88s" fill="freeze"/></rect>
-  <rect x="691.7" y="170.9" width="10.8" height="11.1" rx="2" fill="#2DD4BF" opacity="0.42"><animate attributeName="height" values="0;11.1" dur="0.6s" begin="0.90s" fill="freeze"/><animate attributeName="y" values="182;170.9" dur="0.6s" begin="0.90s" fill="freeze"/></rect>
-  <rect x="706.5" y="78.0" width="10.8" height="104.0" rx="2" fill="#2DD4BF" opacity="1.00"><animate attributeName="height" values="0;104.0" dur="0.6s" begin="0.92s" fill="freeze"/><animate attributeName="y" values="182;78.0" dur="0.6s" begin="0.92s" fill="freeze"/></rect>
-  <rect x="721.2" y="135.0" width="10.8" height="47.0" rx="2" fill="#2DD4BF" opacity="0.64"><animate attributeName="height" values="0;47.0" dur="0.6s" begin="0.94s" fill="freeze"/><animate attributeName="y" values="182;135.0" dur="0.6s" begin="0.94s" fill="freeze"/></rect>
-  <rect x="736.0" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="750.8" y="180.0" width="10.8" height="2.0" rx="2" fill="#2DD4BF" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.98s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.98s" fill="freeze"/></rect>
+  <rect x="573.3" y="162.2" width="10.8" height="19.8" rx="2" fill="#FB923C" opacity="0.47"><animate attributeName="height" values="0;19.8" dur="0.6s" begin="0.74s" fill="freeze"/><animate attributeName="y" values="182;162.2" dur="0.6s" begin="0.74s" fill="freeze"/></rect>
+  <rect x="588.1" y="177.0" width="10.8" height="5.0" rx="2" fill="#FB923C" opacity="0.38"><animate attributeName="height" values="0;5.0" dur="0.6s" begin="0.76s" fill="freeze"/><animate attributeName="y" values="182;177.0" dur="0.6s" begin="0.76s" fill="freeze"/></rect>
+  <rect x="602.9" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
+  <rect x="617.7" y="174.6" width="10.8" height="7.4" rx="2" fill="#FB923C" opacity="0.40"><animate attributeName="height" values="0;7.4" dur="0.6s" begin="0.80s" fill="freeze"/><animate attributeName="y" values="182;174.6" dur="0.6s" begin="0.80s" fill="freeze"/></rect>
+  <rect x="632.5" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
+  <rect x="647.3" y="161.0" width="10.8" height="21.0" rx="2" fill="#FB923C" opacity="0.48"><animate attributeName="height" values="0;21.0" dur="0.6s" begin="0.84s" fill="freeze"/><animate attributeName="y" values="182;161.0" dur="0.6s" begin="0.84s" fill="freeze"/></rect>
+  <rect x="662.1" y="173.3" width="10.8" height="8.7" rx="2" fill="#FB923C" opacity="0.40"><animate attributeName="height" values="0;8.7" dur="0.6s" begin="0.86s" fill="freeze"/><animate attributeName="y" values="182;173.3" dur="0.6s" begin="0.86s" fill="freeze"/></rect>
+  <rect x="676.9" y="170.9" width="10.8" height="11.1" rx="2" fill="#FB923C" opacity="0.42"><animate attributeName="height" values="0;11.1" dur="0.6s" begin="0.88s" fill="freeze"/><animate attributeName="y" values="182;170.9" dur="0.6s" begin="0.88s" fill="freeze"/></rect>
+  <rect x="691.7" y="78.0" width="10.8" height="104.0" rx="2" fill="#FB923C" opacity="1.00"><animate attributeName="height" values="0;104.0" dur="0.6s" begin="0.90s" fill="freeze"/><animate attributeName="y" values="182;78.0" dur="0.6s" begin="0.90s" fill="freeze"/></rect>
+  <rect x="706.5" y="135.0" width="10.8" height="47.0" rx="2" fill="#FB923C" opacity="0.64"><animate attributeName="height" values="0;47.0" dur="0.6s" begin="0.92s" fill="freeze"/><animate attributeName="y" values="182;135.0" dur="0.6s" begin="0.92s" fill="freeze"/></rect>
+  <rect x="721.2" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
+  <rect x="736.0" y="180.0" width="10.8" height="2.0" rx="2" fill="#FB923C" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.96s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.96s" fill="freeze"/></rect>
+  <rect x="750.8" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
   <rect x="765.6" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="780.4" y="180" width="10.8" height="2" rx="1" fill="#21262D"/>
-  <rect x="795.2" y="180.0" width="10.8" height="2.0" rx="2" fill="#2DD4BF" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="1.04s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="1.04s" fill="freeze"/></rect>
-  <text x="26.0" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Oct</text>
-  <text x="70.4" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Nov</text>
-  <text x="144.3" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Dec</text>
-  <text x="203.5" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Jan</text>
-  <text x="262.7" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Feb</text>
-  <text x="321.8" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Mar</text>
-  <text x="395.8" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Apr</text>
-  <text x="455.0" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">May</text>
-  <text x="528.9" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Jun</text>
-  <text x="588.1" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Jul</text>
-  <text x="647.3" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Aug</text>
-  <text x="721.2" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8B949E">Sep</text>
+  <rect x="780.4" y="180.0" width="10.8" height="2.0" rx="2" fill="#FB923C" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="1.02s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="1.02s" fill="freeze"/></rect>
+  <rect x="795.2" y="180.0" width="10.8" height="2.0" rx="2" fill="#FB923C" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="1.04s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="1.04s" fill="freeze"/></rect>
+  <text x="26.0" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Oct</text>
+  <text x="55.6" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Nov</text>
+  <text x="129.5" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Dec</text>
+  <text x="188.7" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Jan</text>
+  <text x="247.9" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Feb</text>
+  <text x="307.1" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Mar</text>
+  <text x="381.0" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Apr</text>
+  <text x="440.2" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">May</text>
+  <text x="514.2" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Jun</text>
+  <text x="573.3" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Jul</text>
+  <text x="632.5" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Aug</text>
+  <text x="706.5" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Sep</text>
+  <text x="765.6" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#9198A1">Oct</text>
 </svg>

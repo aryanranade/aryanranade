@@ -22,8 +22,8 @@ jobs:
         with:
           github_user_name: aryanranade
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=#2DD4BF&color_dots=#161B22,#0E4F46,#136E60,#1AA189,#2DD4BF
-            dist/snake-light.svg?palette=github-light&color_snake=#0D9488&color_dots=#EAEEF2,#B9E6DD,#7FD1C1,#3FB4A0,#0D9488
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FB923C&color_dots=#161B22,#4A2511,#7C3A12,#C2571A,#FB923C
+            dist/snake-light.svg?palette=github-light&color_snake=#EA580C&color_dots=#EBEEF2,#FED7AA,#FDBA74,#FB923C,#EA580C
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

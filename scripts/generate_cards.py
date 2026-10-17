@@ -25,12 +25,12 @@ TOP_N = 6
 # markup/config "languages" that distort a skills breakdown
 IGNORED_LANGS = {"HTML", "CSS", "SCSS", "Dockerfile", "Makefile", "Procfile", "Batchfile"}
 
-# Single-accent theme — keep in sync with scripts/build_assets.py
+# Single solid accent, no gradients — keep in sync with scripts/build_assets.py
 THEMES = {
-    "dark": dict(bg="#0D1117", border="#30363D", text="#E6EDF3", muted="#8B949E",
-                 track="#21262D", accent="#2DD4BF"),
-    "light": dict(bg="#FFFFFF", border="#D0D7DE", text="#1F2328", muted="#57606A",
-                  track="#EAEEF2", accent="#0D9488"),
+    "dark": dict(bg="#161B22", border="#30363D", text="#F0F6FC", muted="#9198A1",
+                 track="#21262D", accent="#FB923C"),
+    "light": dict(bg="#F6F8FA", border="#D1D9E0", text="#1F2328", muted="#59636E",
+                  track="#E4E8EC", accent="#EA580C"),
 }
 FONT = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace"
@@ -97,9 +97,11 @@ def fade_in(delay: float) -> str:
 
 def card_shell(t: dict, title: str, body: str, w: int = CARD_W, h: int = CARD_H) -> str:
     return f"""<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{title.title()}">
-  <rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" fill="{t['bg']}" stroke="{t['border']}" stroke-width="1.5"/>
-  <text x="{PAD}" y="36" font-family="{FONT}" font-size="12.5" font-weight="600" letter-spacing="2" fill="{t['muted']}">{title}</text>
-  <rect x="{PAD}" y="44" width="28" height="2" fill="{t['accent']}"/>
+  <defs><clipPath id="cc"><rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14"/></clipPath></defs>
+  <rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" fill="{t['bg']}"/>
+  <rect x="0" y="0" width="{w}" height="5" fill="{t['accent']}" clip-path="url(#cc)"/>
+  <rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" stroke="{t['border']}" stroke-width="1.5"/>
+  <text x="{PAD}" y="38" font-family="{FONT}" font-size="12.5" font-weight="700" letter-spacing="2" fill="{t['text']}">{title}</text>
 {body}
 </svg>
 """

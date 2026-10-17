@@ -1,40 +1,75 @@
-<svg width="1012" height="250" viewBox="0 0 1012 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aryan Ranade — AI/ML Engineer, Computer Science Student">
-  <defs>
-    <clipPath id="card"><rect x="1" y="1" width="1010" height="248" rx="16"/></clipPath>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.13"/>
-      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.1" fill="#57606A" opacity="0.16"/>
-    </pattern>
-  </defs>
+<svg width="1012" height="280" viewBox="0 0 1012 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aryan Ranade — AI/ML Engineer, Computer Science Student">
+  <defs><clipPath id="card"><rect x="1" y="1" width="1010" height="278" rx="18"/></clipPath></defs>
+  <rect x="1" y="1" width="1010" height="278" rx="18" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="8" height="280" fill="#EA580C" clip-path="url(#card)"/>
+  <rect x="1" y="1" width="1010" height="278" rx="18" stroke="#D1D9E0" stroke-width="1.5"/>
 
-  <rect x="1" y="1" width="1010" height="248" rx="16" fill="#FFFFFF"/>
-  <g clip-path="url(#card)">
-    <rect width="1012" height="250" fill="url(#dots)"/>
-    <circle cx="890" cy="10" r="320" fill="url(#glow)">
-      <animate attributeName="opacity" values="1;0.6;1" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M0,206 q55,-14 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 " stroke="#0D9488" stroke-opacity="0.32" stroke-width="1.4">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-220 0" dur="18s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,222 q55,-14 110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 t110,0 " stroke="#0D9488" stroke-opacity="0.16" stroke-width="1.4">
-      <animateTransform attributeName="transform" type="translate" from="-220 0" to="0 0" dur="24s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <rect x="1" y="1" width="1010" height="248" rx="16" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="52" y="58" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636E"><tspan fill="#C2410C">~</tspan>/aryanranade <tspan fill="#C2410C">$</tspan> whoami</text>
+  <text x="50" y="128" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1" fill="#1F2328">Aryan Ranade</text>
+  <rect x="52" y="150" width="64" height="5" rx="2.5" fill="#EA580C"/>
+  <text x="52" y="188" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2.5" fill="#59636E">AI/ML ENGINEER<tspan fill="#C2410C" dx="10">/</tspan><tspan dx="10">COMPUTER SCIENCE STUDENT</tspan></text>
 
-  <text x="30" y="44" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#57606A"><tspan fill="#0D9488">~</tspan>/aryanranade <tspan fill="#0D9488">$</tspan></text>
-  <g transform="translate(756,24)">
-    <rect width="230" height="30" rx="15" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <circle cx="18" cy="15" r="4" fill="#0D9488">
-      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+  <g transform="translate(52,214)">
+    <rect width="232" height="32" rx="16" fill="#F6F8FA" stroke="#EA580C" stroke-width="1.2"/>
+    <circle cx="19" cy="16" r="4.5" fill="#EA580C">
+      <animate attributeName="r" values="4.5;6;4.5" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="30" y="19.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#57606A">OPEN TO AI/ML INTERNSHIPS</text>
+    <text x="33" y="20.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1" fill="#1F2328">OPEN TO AI/ML INTERNSHIPS</text>
   </g>
 
-  <text x="506" y="122" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="0.5" fill="#1F2328">Aryan Ranade</text>
-  <rect x="474" y="142" width="64" height="2.5" rx="1.25" fill="#0D9488"/>
-  <text x="506" y="176" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="2.5" fill="#57606A">AI/ML ENGINEER<tspan fill="#0D9488" dx="10">·</tspan><tspan dx="10">COMPUTER SCIENCE STUDENT</tspan></text>
+  <g>
+    <line x1="690" y1="80" x2="810" y2="50" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="80" x2="810" y2="110" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="80" x2="810" y2="170" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="80" x2="810" y2="230" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="140" x2="810" y2="50" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="140" x2="810" y2="110" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="140" x2="810" y2="170" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="140" x2="810" y2="230" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="200" x2="810" y2="50" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="200" x2="810" y2="110" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="200" x2="810" y2="170" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="690" y1="200" x2="810" y2="230" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="50" x2="930" y2="95" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="50" x2="930" y2="185" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="110" x2="930" y2="95" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="110" x2="930" y2="185" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="170" x2="930" y2="95" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="170" x2="930" y2="185" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="230" x2="930" y2="95" stroke="#D1D9E0" stroke-width="1.2"/>
+    <line x1="810" y1="230" x2="930" y2="185" stroke="#D1D9E0" stroke-width="1.2"/>
+    <circle r="3.2" fill="#EA580C" opacity="0">
+      <animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" path="M690,80 L810,110 L930,95"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#EA580C" opacity="0">
+      <animateMotion dur="2.4s" begin="0.55s" repeatCount="indefinite" path="M690,140 L810,170 L930,185"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.55s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#EA580C" opacity="0">
+      <animateMotion dur="2.4s" begin="1.10s" repeatCount="indefinite" path="M690,200 L810,230 L930,185"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="1.10s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#EA580C" opacity="0">
+      <animateMotion dur="2.4s" begin="1.65s" repeatCount="indefinite" path="M690,80 L810,50 L930,95"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="1.65s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#EA580C" opacity="0">
+      <animateMotion dur="2.4s" begin="2.20s" repeatCount="indefinite" path="M690,140 L810,110 L930,185"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="2.20s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#EA580C" opacity="0">
+      <animateMotion dur="2.4s" begin="2.75s" repeatCount="indefinite" path="M690,200 L810,170 L930,95"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="2.75s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="690" cy="80" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="0.00s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="140" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="200" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle cx="810" cy="50" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="0.90s" repeatCount="indefinite"/></circle>
+    <circle cx="810" cy="110" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="1.35s" repeatCount="indefinite"/></circle>
+    <circle cx="810" cy="170" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="1.80s" repeatCount="indefinite"/></circle>
+    <circle cx="810" cy="230" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="2.25s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="95" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="1.80s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="185" r="8" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"><animate attributeName="fill" values="#FFFFFF;#EA580C;#FFFFFF" dur="3.3s" begin="2.25s" repeatCount="indefinite"/></circle>
+  </g>
 </svg>

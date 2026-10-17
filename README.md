@@ -6,8 +6,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&center=true&vCenter=true&width=640&height=32&background=00000000&color=2DD4BF&lines=Autonomous+coding+agents+evaluated+on+SWE-bench;Agentic+RAG+%C2%B7+LLM+systems+%C2%B7+applied+deep+learning;From+research+prototype+to+deployed+system">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&center=true&vCenter=true&width=640&height=32&background=00000000&color=0D9488&lines=Autonomous+coding+agents+evaluated+on+SWE-bench;Agentic+RAG+%C2%B7+LLM+systems+%C2%B7+applied+deep+learning;From+research+prototype+to+deployed+system" alt="Autonomous coding agents · Agentic RAG · Applied deep learning">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&center=true&vCenter=true&width=640&height=32&background=00000000&color=FB923C&lines=Autonomous+coding+agents+evaluated+on+SWE-bench;Agentic+RAG+%C2%B7+LLM+systems+%C2%B7+applied+deep+learning;From+research+prototype+to+deployed+system">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&center=true&vCenter=true&width=640&height=32&background=00000000&color=C2410C&lines=Autonomous+coding+agents+evaluated+on+SWE-bench;Agentic+RAG+%C2%B7+LLM+systems+%C2%B7+applied+deep+learning;From+research+prototype+to+deployed+system" alt="Autonomous coding agents · Agentic RAG · Applied deep learning">
 </picture>
 
 </div>
