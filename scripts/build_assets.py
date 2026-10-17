@@ -77,7 +77,6 @@ def hero(t: dict) -> str:
 SECTIONS = [
     ("about", "ABOUT"),
     ("projects", "FEATURED PROJECTS"),
-    ("more", "MORE PROJECTS"),
     ("stack", "TECH STACK"),
     ("analytics", "GITHUB ANALYTICS"),
     ("connect", "CONNECT"),

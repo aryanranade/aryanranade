@@ -62,18 +62,6 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-more-dark.svg">
-  <img src="assets/h-more-light.svg" alt="More Projects" width="100%">
-</picture>
-
-| Project | Summary | Built with |
-|:--|:--|:--|
-| [**notes-api**](https://github.com/aryanranade/notes-api)<br><sub>[Live demo ↗](https://notes-api-4d3i.onrender.com/api-docs)</sub> | Secure REST API for notes — JWT role-based access control, Zod validation, pagination & search, OpenAPI docs | TypeScript · Express · Prisma · PostgreSQL |
-| [**weather-dashboard**](https://github.com/aryanranade/weather-dashboard)<br><sub>[Live demo ↗](https://weather-dashboard-omega-mocha.vercel.app)</sub> | Full-stack weather app with stateless JWT auth via Spring Security and saved cities | Java · Spring Boot · React |
-| [**Kanban-Board**](https://github.com/aryanranade/Kanban-Board)<br><sub>[Live demo ↗](https://kanban-board-five-eosin.vercel.app)</sub> | Responsive task board with custom workflow stages, built without UI libraries | React · Vite |
-| [**SyncMind**](https://github.com/TejasSharma356/SyncMind)<br><sub>[Live demo ↗](https://sync-mind.vercel.app)</sub> | *Team project, contributor* — AI meeting assistant that turns calls into transcripts, summaries and action items | React · Vite · AWS |
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg">
   <img src="assets/h-stack-light.svg" alt="Tech Stack" width="100%">
 </picture>

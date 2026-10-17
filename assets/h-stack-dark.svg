@@ -8,7 +8,7 @@
     <clipPath id="track"><rect x="216" y="23" width="796" height="3"/></clipPath>
   </defs>
   <rect x="2" y="15" width="3" height="18" rx="1.5" fill="#2DD4BF"/>
-  <text x="16" y="30" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#2DD4BF">04</text>
+  <text x="16" y="30" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#2DD4BF">03</text>
   <text x="64" y="30" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#E6EDF3">TECH STACK</text>
   <rect x="216" y="24" width="796" height="1" fill="#30363D"/>
   <g clip-path="url(#track)">
