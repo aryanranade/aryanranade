@@ -1,5 +1,5 @@
 <svg width="236" height="54" viewBox="0 0 236 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linkedin">
-  <rect x="1" y="1" width="234" height="52" rx="12" fill="#161B22" stroke="#FB923C" stroke-width="1.5"/>
-  <g transform="translate(26,15)" stroke="#FB923C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="2.5" y="2.5" width="19" height="19" rx="4"/><path d="M7.5 10.5 V17 M7.5 7.2 V7.4 M11.5 17 V12.8 Q11.5 10.5 13.8 10.5 T16.2 12.8 V17"/></g>
-  <text x="140" y="32" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2.5" fill="#F0F6FC">LINKEDIN</text>
+  <rect x="1" y="1" width="234" height="52" rx="12" fill="#2563EB" stroke="#2563EB" stroke-width="1.5"/>
+  <g transform="translate(26,15)" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="2.5" y="2.5" width="19" height="19" rx="4"/><path d="M7.5 10.5 V17 M7.5 7.2 V7.4 M11.5 17 V12.8 Q11.5 10.5 13.8 10.5 T16.2 12.8 V17"/></g>
+  <text x="140" y="32" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2.5" fill="#FFFFFF">LINKEDIN</text>
 </svg>

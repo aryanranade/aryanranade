@@ -1,21 +1,24 @@
 <svg width="408" height="226" viewBox="0 0 408 226" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TBSentinel">
   <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="224" rx="14"/></clipPath></defs>
-  <rect x="1" y="1" width="406" height="224" rx="14" fill="#161B22"/>
-  <rect x="0" y="0" width="408" height="5" fill="#FB923C" clip-path="url(#cc)"/>
-  <rect x="1" y="1" width="406" height="224" rx="14" stroke="#30363D" stroke-width="1.5"/>
-  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#FB923C">MEDICAL IMAGING · EXPLAINABLE AI</text>
-  <text x="24" y="66" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#F0F6FC">TBSentinel</text>
+  <rect x="1" y="1" width="406" height="224" rx="14" fill="#07080B"/>
+  <g clip-path="url(#cc)">
+    <rect x="0" y="0" width="408" height="5" fill="#DC2640"/>
+    <rect x="344" y="0" width="64" height="5" fill="#2563EB"/>
+  </g>
+  <rect x="1" y="1" width="406" height="224" rx="14" stroke="#232836" stroke-width="1.5"/>
+  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#FF4D67">MEDICAL IMAGING · EXPLAINABLE AI</text>
+  <text x="24" y="66" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#F5F7FA">TBSentinel</text>
   <g transform="translate(364,24)">
-    <rect width="24" height="24" rx="6" fill="#0D1117" stroke="#30363D"/>
-    <path d="M8 16 L16 8 M10 8 H16 V14" stroke="#FB923C" stroke-width="1.8" stroke-linecap="round" fill="none">
+    <rect width="24" height="24" rx="6" fill="#0F1117" stroke="#232836"/>
+    <path d="M8 16 L16 8 M10 8 H16 V14" stroke="#FF4D67" stroke-width="1.8" stroke-linecap="round" fill="none">
       <animateTransform attributeName="transform" type="translate" values="0 0;1.5 -1.5;0 0" dur="2.6s" repeatCount="indefinite"/>
     </path>
   </g>
-  <text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#9198A1">Tuberculosis screening from chest X-rays — fine-tuned</text>
-  <text x="24" y="119" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#9198A1">ResNet18, sensitivity-tuned thresholds, cross-hospital</text>
-  <text x="24" y="138" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#9198A1">generalization testing and Grad-CAM heatmaps.</text>
-  <rect x="24" y="152" width="273" height="26" rx="13" fill="#FB923C"/>
-  <text x="40" y="169" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#0D1117">0.896 ROC-AUC on held-out test set</text>
-  <rect x="24" y="190" width="360" height="1" fill="#30363D"/>
-  <text x="24" y="210" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#9198A1">PyTorch · timm · Grad-CAM · scikit-learn · Gradio</text>
+  <text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">Tuberculosis screening from chest X-rays — fine-tuned</text>
+  <text x="24" y="119" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">ResNet18, sensitivity-tuned thresholds, cross-hospital</text>
+  <text x="24" y="138" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">generalization testing and Grad-CAM heatmaps.</text>
+  <rect x="24" y="152" width="273" height="26" rx="13" fill="#DC2640"/>
+  <text x="40" y="169" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#FFFFFF">0.896 ROC-AUC on held-out test set</text>
+  <rect x="24" y="190" width="360" height="1" fill="#232836"/>
+  <text x="24" y="210" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#8C93A3">PyTorch · timm · Grad-CAM · scikit-learn · Gradio</text>
 </svg>

@@ -1,5 +1,5 @@
 <svg width="236" height="54" viewBox="0 0 236 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email Me">
-  <rect x="1" y="1" width="234" height="52" rx="12" fill="#EA580C" stroke="#EA580C" stroke-width="1.5"/>
+  <rect x="1" y="1" width="234" height="52" rx="12" fill="#DC2640" stroke="#DC2640" stroke-width="1.5"/>
   <g transform="translate(26,15)" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="2" y="4" width="20" height="16" rx="2.5"/><path d="M2.5 6.5 12 13.5 21.5 6.5"/></g>
   <text x="140" y="32" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2.5" fill="#FFFFFF">EMAIL ME</text>
 </svg>

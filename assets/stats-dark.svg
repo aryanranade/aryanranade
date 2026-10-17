@@ -1,40 +1,43 @@
 <svg width="408" height="330" viewBox="0 0 408 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="At A Glance">
   <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="328" rx="14"/></clipPath></defs>
-  <rect x="1" y="1" width="406" height="328" rx="14" fill="#161B22"/>
-  <rect x="0" y="0" width="408" height="5" fill="#FB923C" clip-path="url(#cc)"/>
-  <rect x="1" y="1" width="406" height="328" rx="14" stroke="#30363D" stroke-width="1.5"/>
-  <text x="24" y="38" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2" fill="#F0F6FC">AT A GLANCE</text>
+  <rect x="1" y="1" width="406" height="328" rx="14" fill="#07080B"/>
+  <g clip-path="url(#cc)">
+    <rect x="0" y="0" width="408" height="5" fill="#2563EB"/>
+    <rect x="344" y="0" width="64" height="5" fill="#DC2640"/>
+  </g>
+  <rect x="1" y="1" width="406" height="328" rx="14" stroke="#232836" stroke-width="1.5"/>
+  <text x="24" y="38" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2" fill="#F5F7FA">AT A GLANCE</text>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.10s" fill="freeze"/>
-    <text x="24" y="112" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#FB923C">217</text>
+    <text x="24" y="112" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#5B9BFF">219</text>
   </g>
-  <text x="24" y="136" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="2" fill="#9198A1">CONTRIBUTIONS · LAST 12 MONTHS</text>
+  <text x="24" y="136" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="2" fill="#8C93A3">CONTRIBUTIONS · LAST 12 MONTHS</text>
   <g transform="translate(24,168)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.50s" fill="freeze"/>
-    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#FB923C"/>
-    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#9198A1">COMMITS · LAST 12 MONTHS</text>
-    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F0F6FC">192</text>
-    <rect x="0" y="16" width="360" height="1" fill="#30363D" opacity="0.7"/>
+    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#2563EB"/>
+    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#8C93A3">COMMITS · LAST 12 MONTHS</text>
+    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F5F7FA">194</text>
+    <rect x="0" y="16" width="360" height="1" fill="#232836" opacity="0.7"/>
   </g>
   <g transform="translate(24,208)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.65s" fill="freeze"/>
-    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#FB923C"/>
-    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#9198A1">PULL REQUESTS</text>
-    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F0F6FC">6</text>
-    <rect x="0" y="16" width="360" height="1" fill="#30363D" opacity="0.7"/>
+    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#DC2640"/>
+    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#8C93A3">PULL REQUESTS</text>
+    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F5F7FA">6</text>
+    <rect x="0" y="16" width="360" height="1" fill="#232836" opacity="0.7"/>
   </g>
   <g transform="translate(24,248)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.80s" fill="freeze"/>
-    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#FB923C"/>
-    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#9198A1">REPOS CONTRIBUTED TO</text>
-    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F0F6FC">8</text>
-    <rect x="0" y="16" width="360" height="1" fill="#30363D" opacity="0.7"/>
+    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#2563EB"/>
+    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#8C93A3">REPOS CONTRIBUTED TO</text>
+    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F5F7FA">8</text>
+    <rect x="0" y="16" width="360" height="1" fill="#232836" opacity="0.7"/>
   </g>
   <g transform="translate(24,288)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.95s" fill="freeze"/>
-    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#FB923C"/>
-    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#9198A1">PUBLIC REPOSITORIES</text>
-    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F0F6FC">15</text>
-    <rect x="0" y="16" width="360" height="1" fill="#30363D" opacity="0.7"/>
+    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="#DC2640"/>
+    <text x="14" y="2" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1" fill="#8C93A3">PUBLIC REPOSITORIES</text>
+    <text x="360" y="2" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#F5F7FA">15</text>
+    <rect x="0" y="16" width="360" height="1" fill="#232836" opacity="0.7"/>
   </g>
 </svg>

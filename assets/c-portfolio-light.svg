@@ -1,5 +1,5 @@
 <svg width="236" height="54" viewBox="0 0 236 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portfolio">
-  <rect x="1" y="1" width="234" height="52" rx="12" fill="#F6F8FA" stroke="#EA580C" stroke-width="1.5"/>
-  <g transform="translate(26,15)" stroke="#EA580C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="12" cy="12" r="9.5"/><ellipse cx="12" cy="12" rx="4.2" ry="9.5"/><path d="M2.5 12 H21.5"/></g>
-  <text x="140" y="32" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2.5" fill="#1F2328">PORTFOLIO</text>
+  <rect x="1" y="1" width="234" height="52" rx="12" fill="#07080B" stroke="#8C93A3" stroke-width="1.5"/>
+  <g transform="translate(26,15)" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="12" cy="12" r="9.5"/><ellipse cx="12" cy="12" rx="4.2" ry="9.5"/><path d="M2.5 12 H21.5"/></g>
+  <text x="140" y="32" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2.5" fill="#FFFFFF">PORTFOLIO</text>
 </svg>

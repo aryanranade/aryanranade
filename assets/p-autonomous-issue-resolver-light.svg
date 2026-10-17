@@ -1,21 +1,24 @@
 <svg width="408" height="226" viewBox="0 0 408 226" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="autonomous-issue-resolver">
   <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="224" rx="14"/></clipPath></defs>
-  <rect x="1" y="1" width="406" height="224" rx="14" fill="#F6F8FA"/>
-  <rect x="0" y="0" width="408" height="5" fill="#EA580C" clip-path="url(#cc)"/>
-  <rect x="1" y="1" width="406" height="224" rx="14" stroke="#D1D9E0" stroke-width="1.5"/>
-  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#C2410C">AUTONOMOUS AGENTS</text>
-  <text x="24" y="66" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#1F2328">autonomous-issue-resolver</text>
+  <rect x="1" y="1" width="406" height="224" rx="14" fill="#07080B"/>
+  <g clip-path="url(#cc)">
+    <rect x="0" y="0" width="408" height="5" fill="#2563EB"/>
+    <rect x="344" y="0" width="64" height="5" fill="#DC2640"/>
+  </g>
+  <rect x="1" y="1" width="406" height="224" rx="14" stroke="#232836" stroke-width="1.5"/>
+  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#5B9BFF">AUTONOMOUS AGENTS</text>
+  <text x="24" y="66" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#F5F7FA">autonomous-issue-resolver</text>
   <g transform="translate(364,24)">
-    <rect width="24" height="24" rx="6" fill="#FFFFFF" stroke="#D1D9E0"/>
-    <path d="M8 16 L16 8 M10 8 H16 V14" stroke="#EA580C" stroke-width="1.8" stroke-linecap="round" fill="none">
+    <rect width="24" height="24" rx="6" fill="#0F1117" stroke="#232836"/>
+    <path d="M8 16 L16 8 M10 8 H16 V14" stroke="#5B9BFF" stroke-width="1.8" stroke-linecap="round" fill="none">
       <animateTransform attributeName="transform" type="translate" values="0 0;1.5 -1.5;0 0" dur="2.6s" repeatCount="indefinite"/>
     </path>
   </g>
-  <text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636E">Coding agent that plans, edits and tests fixes for</text>
-  <text x="24" y="119" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636E">real GitHub issues inside per-task Docker sandboxes,</text>
-  <text x="24" y="138" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636E">with a provider-agnostic LLM layer.</text>
-  <rect x="24" y="152" width="316" height="26" rx="13" fill="#EA580C"/>
+  <text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">Coding agent that plans, edits and tests fixes for</text>
+  <text x="24" y="119" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">real GitHub issues inside per-task Docker sandboxes,</text>
+  <text x="24" y="138" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">with a provider-agnostic LLM layer.</text>
+  <rect x="24" y="152" width="316" height="26" rx="13" fill="#2563EB"/>
   <text x="40" y="169" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#FFFFFF">Graded by the official SWE-bench harness</text>
-  <rect x="24" y="190" width="360" height="1" fill="#D1D9E0"/>
-  <text x="24" y="210" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#59636E">Python · Docker · SWE-bench · Groq · Gemini</text>
+  <rect x="24" y="190" width="360" height="1" fill="#232836"/>
+  <text x="24" y="210" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#8C93A3">Python · Docker · SWE-bench · Groq · Gemini</text>
 </svg>

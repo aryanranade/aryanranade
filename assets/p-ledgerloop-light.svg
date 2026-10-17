@@ -1,21 +1,24 @@
 <svg width="408" height="226" viewBox="0 0 408 226" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ledgerloop">
   <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="224" rx="14"/></clipPath></defs>
-  <rect x="1" y="1" width="406" height="224" rx="14" fill="#F6F8FA"/>
-  <rect x="0" y="0" width="408" height="5" fill="#EA580C" clip-path="url(#cc)"/>
-  <rect x="1" y="1" width="406" height="224" rx="14" stroke="#D1D9E0" stroke-width="1.5"/>
-  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#C2410C">AI FINANCE · RAZORPAY AI BUILDATHON</text>
-  <text x="24" y="66" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#1F2328">ledgerloop</text>
+  <rect x="1" y="1" width="406" height="224" rx="14" fill="#07080B"/>
+  <g clip-path="url(#cc)">
+    <rect x="0" y="0" width="408" height="5" fill="#DC2640"/>
+    <rect x="344" y="0" width="64" height="5" fill="#2563EB"/>
+  </g>
+  <rect x="1" y="1" width="406" height="224" rx="14" stroke="#232836" stroke-width="1.5"/>
+  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#FF4D67">AI FINANCE · RAZORPAY AI BUILDATHON</text>
+  <text x="24" y="66" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#F5F7FA">ledgerloop</text>
   <g transform="translate(364,24)">
-    <rect width="24" height="24" rx="6" fill="#FFFFFF" stroke="#D1D9E0"/>
-    <path d="M8 16 L16 8 M10 8 H16 V14" stroke="#EA580C" stroke-width="1.8" stroke-linecap="round" fill="none">
+    <rect width="24" height="24" rx="6" fill="#0F1117" stroke="#232836"/>
+    <path d="M8 16 L16 8 M10 8 H16 V14" stroke="#FF4D67" stroke-width="1.8" stroke-linecap="round" fill="none">
       <animateTransform attributeName="transform" type="translate" values="0 0;1.5 -1.5;0 0" dur="2.6s" repeatCount="indefinite"/>
     </path>
   </g>
-  <text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636E">Three-way settlement reconciliation agent: a</text>
-  <text x="24" y="119" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636E">deterministic matching cascade, a bounded LLM</text>
-  <text x="24" y="138" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#59636E">adjudicator and a deterministic verifier.</text>
-  <rect x="24" y="152" width="266" height="26" rx="13" fill="#EA580C"/>
+  <text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">Three-way settlement reconciliation agent: a</text>
+  <text x="24" y="119" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">deterministic matching cascade, a bounded LLM</text>
+  <text x="24" y="138" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8C93A3">adjudicator and a deterministic verifier.</text>
+  <rect x="24" y="152" width="266" height="26" rx="13" fill="#DC2640"/>
   <text x="40" y="169" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#FFFFFF">98.3% precision on held-out bench</text>
-  <rect x="24" y="190" width="360" height="1" fill="#D1D9E0"/>
-  <text x="24" y="210" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#59636E">Python · FastAPI · Groq · DuckDB · Next.js</text>
+  <rect x="24" y="190" width="360" height="1" fill="#232836"/>
+  <text x="24" y="210" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#8C93A3">Python · FastAPI · Groq · DuckDB · Next.js</text>
 </svg>

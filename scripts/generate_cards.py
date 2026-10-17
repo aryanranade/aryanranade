@@ -25,13 +25,11 @@ TOP_N = 6
 # markup/config "languages" that distort a skills breakdown
 IGNORED_LANGS = {"HTML", "CSS", "SCSS", "Dockerfile", "Makefile", "Procfile", "Batchfile"}
 
-# Single solid accent, no gradients — keep in sync with scripts/build_assets.py
-THEMES = {
-    "dark": dict(bg="#161B22", border="#30363D", text="#F0F6FC", muted="#9198A1",
-                 track="#21262D", accent="#FB923C"),
-    "light": dict(bg="#F6F8FA", border="#D1D9E0", text="#1F2328", muted="#59636E",
-                  track="#E4E8EC", accent="#EA580C"),
-}
+# Black cards, royal blue + crimson as solid accents, no gradients.
+# Cards stay black in both GitHub themes. Keep in sync with scripts/build_assets.py.
+INK = dict(bg="#07080B", border="#232836", text="#F5F7FA", muted="#8C93A3", track="#1A1E28",
+           blue="#2563EB", blue_text="#5B9BFF", red="#DC2640", red_text="#FF4D67")
+THEMES = {"dark": INK, "light": INK}
 FONT = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace"
 CARD_W, CARD_H, PAD = 408, 330, 24
@@ -95,11 +93,15 @@ def fade_in(delay: float) -> str:
     return f'<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{delay:.2f}s" fill="freeze"/>'
 
 
-def card_shell(t: dict, title: str, body: str, w: int = CARD_W, h: int = CARD_H) -> str:
+def card_shell(t: dict, title: str, body: str, w: int = CARD_W, h: int = CARD_H,
+               bar: str = "blue", tip: str = "red") -> str:
     return f"""<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{title.title()}">
   <defs><clipPath id="cc"><rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14"/></clipPath></defs>
   <rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" fill="{t['bg']}"/>
-  <rect x="0" y="0" width="{w}" height="5" fill="{t['accent']}" clip-path="url(#cc)"/>
+  <g clip-path="url(#cc)">
+    <rect x="0" y="0" width="{w}" height="5" fill="{t[bar]}"/>
+    <rect x="{w - 64}" y="0" width="64" height="5" fill="{t[tip]}"/>
+  </g>
   <rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" stroke="{t['border']}" stroke-width="1.5"/>
   <text x="{PAD}" y="38" font-family="{FONT}" font-size="12.5" font-weight="700" letter-spacing="2" fill="{t['text']}">{title}</text>
 {body}
@@ -116,14 +118,14 @@ def render_stats(s: dict, t: dict) -> str:
                                         ("PUBLIC REPOSITORIES", s["repos"])]):
         rows.append(f"""  <g transform="translate({PAD},{168 + i * 40})" opacity="0">
     {fade_in(0.5 + 0.15 * i)}
-    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="{t['accent']}"/>
+    <rect x="0" y="-10" width="3" height="14" rx="1.5" fill="{t['blue' if i % 2 == 0 else 'red']}"/>
     <text x="14" y="2" font-family="{FONT}" font-size="12.5" letter-spacing="1" fill="{t['muted']}">{label}</text>
     <text x="{inner_w}" y="2" text-anchor="end" font-family="{FONT}" font-size="16" font-weight="700" fill="{t['text']}">{value:,}</text>
     <rect x="0" y="16" width="{inner_w}" height="1" fill="{t['border']}" opacity="0.7"/>
   </g>""")
     body = f"""  <g opacity="0">
     {fade_in(0.1)}
-    <text x="{PAD}" y="112" font-family="{FONT}" font-size="44" font-weight="800" fill="{t['accent']}">{s['contributions']:,}</text>
+    <text x="{PAD}" y="112" font-family="{FONT}" font-size="44" font-weight="800" fill="{t['blue_text']}">{s['contributions']:,}</text>
   </g>
   <text x="{PAD}" y="136" font-family="{FONT}" font-size="12.5" letter-spacing="2" fill="{t['muted']}">CONTRIBUTIONS · LAST 12 MONTHS</text>
 {chr(10).join(rows)}"""
@@ -141,11 +143,11 @@ def render_langs(langs: list[tuple[str, float]], t: dict) -> str:
     <text x="0" y="12" font-family="{FONT}" font-size="14" font-weight="600" fill="{t['text']}">{lang}</text>
     <text x="{bar_w}" y="12" text-anchor="end" font-family="{FONT}" font-size="13" fill="{t['muted']}">{pct:.1f}%</text>
     <rect x="0" y="20" width="{bar_w}" height="6" rx="3" fill="{t['track']}"/>
-    <rect x="0" y="20" width="{fill_w}" height="6" rx="3" fill="{t['accent']}" opacity="{1 - i * 0.12:.2f}">
+    <rect x="0" y="20" width="{fill_w}" height="6" rx="3" fill="{t['blue' if i % 2 == 0 else 'red']}">
       <animate attributeName="width" values="0;{fill_w}" dur="0.9s" begin="{0.15 * i:.2f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
     </rect>
   </g>""")
-    return card_shell(t, "MOST USED LANGUAGES", "\n".join(rows))
+    return card_shell(t, "MOST USED LANGUAGES", "\n".join(rows), bar="red", tip="blue")
 
 
 def render_activity(s: dict, t: dict) -> str:
@@ -161,7 +163,7 @@ def render_activity(s: dict, t: dict) -> str:
         bh = max(count / peak * max_h, 2 if count else 0)
         if bh:
             bars.append(f'  <rect x="{x:.1f}" y="{base - bh:.1f}" width="{bar_w:.1f}" height="{bh:.1f}" rx="2" '
-                        f'fill="{t["accent"]}" opacity="{0.35 + 0.65 * count / peak:.2f}">'
+                        f'fill="{t["red"] if count == peak else t["blue"]}" opacity="{1 if count == peak else 0.45 + 0.55 * count / peak:.2f}">'
                         f'<animate attributeName="height" values="0;{bh:.1f}" dur="0.6s" begin="{0.02 * i:.2f}s" fill="freeze"/>'
                         f'<animate attributeName="y" values="{base};{base - bh:.1f}" dur="0.6s" begin="{0.02 * i:.2f}s" fill="freeze"/></rect>')
         else:
@@ -173,7 +175,7 @@ def render_activity(s: dict, t: dict) -> str:
     best = max(weeks, key=lambda wk: wk[1]) if weeks else ("", 0)
     summary = (f'<text x="{right}" y="36" text-anchor="end" font-family="{FONT}" font-size="12.5" fill="{t["muted"]}">'
                f'<tspan fill="{t["text"]}" font-weight="700">{s["contributions"]:,}</tspan> contributions · '
-               f'best week <tspan fill="{t["text"]}" font-weight="700">{best[1]}</tspan></text>')
+               f'best week <tspan fill="{t["red_text"]}" font-weight="700">{best[1]}</tspan></text>')
     body = "\n".join([f"  {summary}",
                       f'  <rect x="{left}" y="{base}" width="{right - left}" height="1" fill="{t["border"]}"/>',
                       *bars, *labels])
