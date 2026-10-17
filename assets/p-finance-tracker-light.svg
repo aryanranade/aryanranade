@@ -1,17 +1,21 @@
-<svg width="408" height="150" viewBox="0 0 408 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="finance-tracker">
-  <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="148" rx="14"/></clipPath></defs>
-  <rect x="1" y="1" width="406" height="148" rx="14" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="4" height="148" fill="#0D9488" clip-path="url(#cc)">
-    <animate attributeName="opacity" values="0.9;0.45;0.9" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="1" y="1" width="406" height="148" rx="14" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
-  <text x="24" y="38" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#1F2328">finance-tracker</text>
-  <g transform="translate(366,20)">
-    <g stroke="#0D9488" stroke-width="1.8" stroke-linecap="round">
-      <path d="M4 14 L14 4 M6 4 H14 V12" fill="none"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 2.5 -2.5; 0 0" dur="2.6s" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" repeatCount="indefinite"/>
-    </g>
+<svg width="408" height="222" viewBox="0 0 408 222" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="finance-tracker">
+  <defs><clipPath id="cc"><rect x="1" y="1" width="406" height="220" rx="14"/></clipPath></defs>
+  <rect x="1" y="1" width="406" height="220" rx="14" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="3" height="220" fill="#0D9488" clip-path="url(#cc)"/>
+  <rect x="1" y="1" width="406" height="220" rx="14" stroke="#D0D7DE" stroke-width="1.5"/>
+  <text x="24" y="34" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#0D9488">FULL-STACK · LLM</text>
+  <text x="24" y="62" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#1F2328">finance-tracker</text>
+  <g transform="translate(366,22)" stroke="#57606A" stroke-width="1.7" stroke-linecap="round" fill="none">
+    <path d="M4 14 L14 4 M6 4 H14 V12">
+      <animateTransform attributeName="transform" type="translate" values="0 0;2 -2;0 0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
   </g>
-  <text x="24" y="68" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#57606A">AI-powered personal finance tracker — Groq Llama 3.3</text><text x="24" y="88" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#57606A">insights, auto-categorization and budget analytics.</text>
-  <circle cx="28" cy="120" r="4" fill="#0D9488"/><text x="38" y="124.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#57606A">React · Node.js</text><circle cx="188" cy="120" r="4" fill="#0D9488"/><text x="198" y="124.5" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#57606A">Groq · MongoDB</text>
+  <text x="24" y="96" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#57606A">Personal finance tracker with Groq Llama 3.3 insights,</text>
+  <text x="24" y="115" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#57606A">natural-language auto-categorization, budgets and a</text>
+  <text x="24" y="134" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#57606A">financial health score.</text>
+  <rect x="24" y="148" width="129" height="24" rx="12" fill="#0D9488" fill-opacity="0.1" stroke="#0D9488" stroke-opacity="0.45"/>
+  <circle cx="37" cy="160" r="3" fill="#0D9488"/>
+  <text x="47" y="164" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#0D9488">Live on Vercel</text>
+  <rect x="24" y="186" width="360" height="1" fill="#D0D7DE"/>
+  <text x="24" y="206" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" fill="#57606A">React · Express · MongoDB · Groq · Tailwind</text>
 </svg>

@@ -1,25 +1,19 @@
-<svg width="1012" height="54" viewBox="0 0 1012 54" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CONNECT">
+<svg width="1012" height="46" viewBox="0 0 1012 46" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Connect">
   <defs>
-    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0"/><stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.65"/>
-    </linearGradient>
-    <linearGradient id="r" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.65"/><stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0.25"><stop offset="0%" stop-color="#2DD4BF"/><stop offset="100%" stop-color="#2DD4BF"/></linearGradient>
     <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E6EDF3" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#E6EDF3" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#E6EDF3" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2DD4BF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
     </linearGradient>
+    <clipPath id="track"><rect x="176" y="23" width="836" height="3"/></clipPath>
   </defs>
-  <rect x="0" y="30" width="400" height="1" fill="url(#l)"/>
-  <rect x="612" y="30" width="400" height="1" fill="url(#r)"/>
-  <clipPath id="lines"><rect x="0" y="29" width="400" height="3"/><rect x="612" y="29" width="400" height="3"/></clipPath>
-  <g clip-path="url(#lines)">
-    <rect x="-140" y="29" width="120" height="3" fill="url(#glint)" opacity="0.9">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="1292 0" dur="5.5s" repeatCount="indefinite"/>
+  <rect x="2" y="15" width="3" height="18" rx="1.5" fill="#2DD4BF"/>
+  <text x="16" y="30" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#2DD4BF">06</text>
+  <text x="64" y="30" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#E6EDF3">CONNECT</text>
+  <rect x="176" y="24" width="836" height="1" fill="#30363D"/>
+  <g clip-path="url(#track)">
+    <rect x="36" y="23" width="120" height="3" fill="url(#glint)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="996 0" dur="6s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <text x="506" y="35.5" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="url(#tx)">CONNECT</text>
 </svg>
