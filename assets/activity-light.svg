@@ -2,7 +2,7 @@
   <rect x="1" y="1" width="830" height="234" rx="14" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1.5"/>
   <text x="24" y="36" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="2" fill="#57606A">WEEKLY ACTIVITY · LAST 12 MONTHS</text>
   <rect x="24" y="44" width="28" height="2" fill="#0D9488"/>
-  <text x="808" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#57606A"><tspan fill="#1F2328" font-weight="700">216</tspan> contributions · best week <tspan fill="#1F2328" font-weight="700">84</tspan></text>
+  <text x="808" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#57606A"><tspan fill="#1F2328" font-weight="700">217</tspan> contributions · best week <tspan fill="#1F2328" font-weight="700">84</tspan></text>
   <rect x="24" y="182" width="784" height="1" fill="#D0D7DE"/>
   <rect x="26.0" y="180" width="10.8" height="2" rx="1" fill="#EAEEF2"/>
   <rect x="40.8" y="180" width="10.8" height="2" rx="1" fill="#EAEEF2"/>
@@ -56,7 +56,7 @@
   <rect x="750.8" y="180.0" width="10.8" height="2.0" rx="2" fill="#0D9488" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="0.98s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="0.98s" fill="freeze"/></rect>
   <rect x="765.6" y="180" width="10.8" height="2" rx="1" fill="#EAEEF2"/>
   <rect x="780.4" y="180" width="10.8" height="2" rx="1" fill="#EAEEF2"/>
-  <rect x="795.2" y="180" width="10.8" height="2" rx="1" fill="#EAEEF2"/>
+  <rect x="795.2" y="180.0" width="10.8" height="2.0" rx="2" fill="#0D9488" opacity="0.36"><animate attributeName="height" values="0;2.0" dur="0.6s" begin="1.04s" fill="freeze"/><animate attributeName="y" values="182;180.0" dur="0.6s" begin="1.04s" fill="freeze"/></rect>
   <text x="26.0" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606A">Oct</text>
   <text x="70.4" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606A">Nov</text>
   <text x="144.3" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606A">Dec</text>
