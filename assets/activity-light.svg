@@ -7,7 +7,7 @@
   </g>
   <rect x="1" y="1" width="830" height="234" rx="14" stroke="#232836" stroke-width="1.5"/>
   <text x="24" y="38" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2" fill="#F5F7FA">WEEKLY ACTIVITY · LAST 12 MONTHS</text>
-  <text x="808" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8C93A3"><tspan fill="#F5F7FA" font-weight="700">220</tspan> contributions · best week <tspan fill="#FF4D67" font-weight="700">84</tspan></text>
+  <text x="808" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8C93A3"><tspan fill="#F5F7FA" font-weight="700">225</tspan> contributions · best week <tspan fill="#FF4D67" font-weight="700">84</tspan></text>
   <rect x="24" y="182" width="784" height="1" fill="#232836"/>
   <rect x="26.0" y="180" width="10.8" height="2" rx="1" fill="#1A1E28"/>
   <rect x="40.8" y="180" width="10.8" height="2" rx="1" fill="#1A1E28"/>
@@ -61,7 +61,7 @@
   <rect x="750.8" y="180" width="10.8" height="2" rx="1" fill="#1A1E28"/>
   <rect x="765.6" y="180" width="10.8" height="2" rx="1" fill="#1A1E28"/>
   <rect x="780.4" y="180" width="10.8" height="2" rx="1" fill="#1A1E28"/>
-  <rect x="795.2" y="180" width="10.8" height="2" rx="1" fill="#1A1E28"/>
+  <rect x="795.2" y="175.8" width="10.8" height="6.2" rx="2" fill="#2563EB" opacity="0.48"><animate attributeName="height" values="0;6.2" dur="0.6s" begin="1.04s" fill="freeze"/><animate attributeName="y" values="182;175.8" dur="0.6s" begin="1.04s" fill="freeze"/></rect>
   <text x="26.0" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8C93A3">Nov</text>
   <text x="70.4" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8C93A3">Dec</text>
   <text x="129.5" y="202" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8C93A3">Jan</text>
